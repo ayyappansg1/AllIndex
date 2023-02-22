@@ -18,5 +18,6 @@ public class RunnerClass {
 		JVMReport.jvmReportGeneration("C:\\Users\\ayyappan.g\\eclipse-workspace\\AllIndex\\target\\json\\report.json"); 
 		System.out.println("Checking Git Flow");
 		System.out.println("Checking Flow username");
+		System.out.println("Verified");
 	}
 }
