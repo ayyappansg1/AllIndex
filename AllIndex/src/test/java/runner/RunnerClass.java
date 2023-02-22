@@ -15,5 +15,8 @@ monochrome = true, tags = "@first",plugin = "json:target/json/report.json")
 public class RunnerClass {
 	@AfterClass 
 	public static void reportGenerate() {
-		JVMReport.jvmReportGeneration("C:\\Users\\ayyappan.g\\eclipse-workspace\\AllIndex\\target\\json\\report.json"); }
+		JVMReport.jvmReportGeneration("C:\\Users\\ayyappan.g\\eclipse-workspace\\AllIndex\\target\\json\\report.json"); 
+		System.out.println("Checking Git Flow");
+	}
+	
 }

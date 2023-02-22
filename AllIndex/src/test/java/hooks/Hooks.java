@@ -18,5 +18,6 @@ public class Hooks {
 	public void after() throws IOException
 	{
 		//DriverManager.getInstance().getDriver().close();
+		System.out.println("Checking Git Flow");
 	}
 }
